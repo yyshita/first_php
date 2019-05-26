@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+org.eclipse.php.core.workspaceDefaultLocale=ja_JP
+org.eclipse.php.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.php.ui.wizards.JSsupport=true
+phpManualSite=PHP.net ja\u0005http\://www.php.net/manual/ja\u0005php
+phpManualSites=PHP.net ja\u0005http\://www.php.net/manual/ja\u0005php
+semanticHighlighting.org.eclipse.php.internal.ui.editor.highlighters.ConstantHighlighting.italic=false
+semanticHighlighting.org.eclipse.php.internal.ui.editor.highlighters.FunctionHighlighting.italic=false
+semanticHighlighting.org.eclipse.php.internal.ui.editor.highlighters.StaticFieldHighlighting.italic=false
+semanticHighlighting.org.eclipse.php.internal.ui.editor.highlighters.StaticMethodHighlighting.italic=false
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
