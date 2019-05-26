@@ -17,6 +17,19 @@ function getTriangleArea(float $base, float $height): float{
 
 $name = 'getTriangleArea';
 $area = $name(3,6);
-print = "三角形の面積は{$area}です。";
+print "三角形の面積は{$area}です。";
+
 
 //higer_order
+function my_array_walk(array $array, callable $func){
+    foreach($array as $key => $value){
+        $func($value, $key);
+    }
+}
+
+function showItem($value, $key){
+    print "{$key}:{$value}</br>";
+}
+
+$data = ['sugiyama', 'osada', 'suginuma', 'wada', 'doi'];
+my_array_walk($data, 'showItem');
