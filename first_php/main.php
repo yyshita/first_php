@@ -76,3 +76,13 @@ $date = '2016年12月04日';
 $fmt = 'Y年m月d日';
 $dt = DateTime::createFromFormat($fmt, $date);
 print $dt->format('Y-m-d')."\n";
+
+
+//directory iterator
+$dir = new DirectoryIterator('../../../');
+foreach($dir as $file){
+    if($file->isFile()){
+        print $file->getFileName()."\n";
+        print $file->getPath()."\n";
+    }
+}
